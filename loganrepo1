@@ -1,2 +1,51 @@
-jbfhihhhh
-h
+sudo su
+Jenkins link copy paste
+yum install java-17 -y
+yum install Jenkins
+systemctl start Jenkins
+public ip copy
+
+
+sudo su
+yum install docker
+systemctl enable docker
+systemctl start docker
+docker hub go and copy
+docker run
+docker images
+docker ps- a
+
+elastic cr
+create repo
+create user (ec2 only)
+create role
+ec2 only
+actions
+security
+yum install docker
+systemctl enable docker
+systemctl start docker
+nano Dockerfile
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+nano index.html
+aws configure
+
+
+git commands
+sudo su sudo yum install git -y
+mkdir name
+cd name
+git config --global user.name"name"
+git config --global user.email"email"
+git init
+vi repo
+click i
+exc +:wql
+git add .
+git commit -m "initial commit from EC2 instance"
+git push -u  origin master
+
+
